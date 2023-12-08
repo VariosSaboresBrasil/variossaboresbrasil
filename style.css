@@ -1,0 +1,238 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+    .container{
+        padding: 50px 20px;
+      }
+}
+
+header {
+    background-color: rgb(54, 17, 17);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    background-color: #3c1414; /* Marrom */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilos para o campo de entrada */
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilos para o botão */
+.search-bar button {
+    border: none;
+    background-color: #3c1414; /* Verde exército */
+    color: #ff8c00; /* Laranja escuro */
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #666666; /* Tom mais escuro do verde exército */
+}
+
+
+
+
+
+footer {
+    background-color: rgb(33, 82, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+   main {
+    color: blue;
+  }
+  
+}
+
+img {
+    width: 130px;
+    height: 80px;
+}
+nav a:hover {
+    color: yellow;
+}
+/* Estilo para a lista e remoção de marcadores */
+.pratos ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui as colunas uniformemente */
+}
+
+/* Estilo para cada item da lista */
+.pratos ul li {
+    width: calc(33.33% - 20px); /* Uma coluna de três com espaço entre elas */
+    margin-bottom: 20px;
+}
+
+/* Estilo para as imagens */
+.pratos ul li img {
+    width: 100%;
+    height: 200px; /* ou outro valor desejado */
+    object-fit: cover; /* para manter a proporção da imagem e cortar se necessário */
+    border: 1px solid black; /* Adiciona uma borda para separar as imagens */
+    border-radius: 5%;
+}
+
+
+/* Estilo para os títulos das comidas */
+.pratos ul li p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Estilo para os títulos das comidas */
+.pratos ul li h3 {
+    margin-left: 0%;
+    text-align: center;
+}
+
+
+/* Estilo para as descrições */
+.pratos-lista li p {
+    text-align: justify;
+    margin: 5px 0;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+
+
+
+
+}
+
+/* Estil para a logo */
+.LOGO {
+    display: flex;
+    justify-content: center; /* Centraliza a logo horizontalmente */
+    align-items: center; /* Centraliza a logo verticalmente */
+    margin: 0; /* Remove as margens padrão do h1 */
+  }
+  
+  .LOGO img {
+    width: 250px; /* Largura inicial da logo */
+    height: auto; /* Mantém a proporção original da imagem */
+    transition: width 0.3s ease; /* Adiciona uma transição suave para o tamanho da logo */
+  }
+
+
+  /* Estilo para a logo quando o mouse passa por cima */
+  .LOGO:hover img {
+    width: 300px; /* Largura da logo ao passar o mouse */
+}
+
+ /*estilo para os títulos e textos da págino da 1 e da história*/
+ .container h3 {
+    text-align: center;
+    font-size: 30px;
+ }
+ .container p {
+    text-align: center;
+ }
+
+
+ .central {
+    width: 100%;
+    overflow: hidden; /* Limpa o float */
+  }
+  
+  .pratosp {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+
+  .bebisob {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+
+
+  .info {
+    width: calc(33.33% - 20px); /* Defina a largura de cada coluna */
+    float: left; /* Faz as colunas flutuarem ao lado umas das outras */
+    margin: 0 10px; /* Adicione margens para espaçamento entre as colunas */
+  }
+
+
+
+  
+  
+
+
+/* Estilo para a logo quando o mouse passa por cima */
+
